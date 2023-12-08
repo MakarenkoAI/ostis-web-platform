@@ -17,7 +17,7 @@ export SC_MACHINE_PATH="${SC_MACHINE_PATH:-${PLATFORM_PATH}/sc-machine}"
 export SC_WEB_REPO="${SC_WEB_REPO:-https://github.com/ostis-ai/sc-web.git}"
 export SC_WEB_BRANCH="${SC_WEB_BRANCH:-0.8.0-Fusion}"
 export SC_WEB_COMMIT="${SC_WEB_COMMIT:-""}"
-export SC_WEB_PATH="${SC_WEB_PATH:-${PLATFORM_PATH}/sc-web}"
+export SC_WEB_PATH="${SC_WEB_PATH:-${PLATFORM_PATH}/interface/sc-web}"
 
 export IMS_KB_REPO="${IMS_KB_REPO:-https://github.com/ostis-ai/ims.ostis.kb.git}"
 export IMS_KB_BRANCH="${IMS_KB_BRANCH:-main}"
