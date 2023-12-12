@@ -1,8 +1,10 @@
-project (ostis-example-app)
+project (ostis-web-platform)
 cmake_minimum_required (VERSION 2.8)
 
-set(SC_MACHINE_PATH "${CMAKE_CURRENT_LIST_DIR}/ostis-web-platform/sc-machine")
+set(SC_MACHINE_PATH "${CMAKE_CURRENT_LIST_DIR}/sc-machine")
+set(PROBLEM_SOLVER_PATH "${CMAKE_CURRENT_LIST_DIR}/problem-solver")
 include("${SC_MACHINE_PATH}/CMakeLists.txt")
+include("${PROBLEM_SOLVER_PATH}/CMakeLists.txt")
 
 # platform doesn't support multi-extensions. Have to put project binaries to sc-machine extensions
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_LIST_DIR}/bin/extensions")
