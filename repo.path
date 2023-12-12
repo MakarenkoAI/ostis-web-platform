@@ -1,2 +1,6 @@
 # common
 ims.ostis.kb
+
+# specifications
+problem-solver/cxx/exampleModule/specifications/agent_of_isomorphic_search
+problem-solver/cxx/exampleModule/specifications/agent_of_subdividing_search
