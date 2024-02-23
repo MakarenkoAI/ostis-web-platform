@@ -9,6 +9,7 @@
 namespace exampleModule
 {
 ScAddr Keynodes::question_find_subdividing;
+ScAddr Keynodes::question_write_information;
 ScAddr Keynodes::nrel_subdividing;
 ScAddr Keynodes::question_find_isomorphic_structures;
 ScAddr Keynodes::nrel_search_result;

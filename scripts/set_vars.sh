@@ -22,7 +22,7 @@ export ROOT_CMAKE_PATH="${APP_ROOT_PATH}"
 export SC_WEB_REPO="https://github.com/ostis-ai/sc-web.git"
 export SC_WEB_BRANCH="0.8.1-Unlock"
 export SC_WEB_COMMIT=""
-export SC_WEB_PATH="${PLATFORM_PATH}/sc-web"
+export SC_WEB_PATH="${PLATFORM_PATH}/interface/sc-web"
 
 if [ -d "${PLATFORM_PATH}" ];
 then
